@@ -1,4 +1,4 @@
-import db from "../database/database.js";
+import db from "../database/db.js";
 
 export async function getGames (req, res) {
     const name = req.query.name;

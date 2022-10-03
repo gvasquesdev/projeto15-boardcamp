@@ -1,4 +1,4 @@
-import connection from "../database/database.js"
+import connection from "../database/db.js"
 import { generalCustomerSchema } from "../schemas/customerSchema.js"
 
 export async function getCustomerByIdMiddleware (req, res, next) {

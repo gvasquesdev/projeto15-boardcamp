@@ -1,4 +1,4 @@
-import db from "../database/database.js";
+import db from "../database/db.js";
 import { postGameSchema } from "../schemas/gamesSchema.js";
 
 export async function postGameMiddleware (req, res, next) {

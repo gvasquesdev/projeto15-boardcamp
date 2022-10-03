@@ -1,6 +1,6 @@
 import express from "express";
 import categoriesRouter from "./categoriesRouter.js";
-import customersRouter from "./customersRouter.js";
+import customersRouter from "./customerRouter.js";
 import gamesRouter from "./gamesRouter.js";
 import rentalsRouter from "./rentalsRouter.js";
 

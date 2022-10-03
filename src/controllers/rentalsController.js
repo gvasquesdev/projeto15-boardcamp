@@ -1,4 +1,4 @@
-import db from "../database/database";
+import db from "../database/db.js";
 import dayjs from "dayjs";
 
 export async function getRentals (req, res) {

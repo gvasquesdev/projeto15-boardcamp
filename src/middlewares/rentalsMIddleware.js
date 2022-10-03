@@ -1,4 +1,4 @@
-import db from "../database/database"
+import db from "../database/db.js"
 import { postRentalSchema } from "../schemas/rentalsSchema.js"
 
 export async function postRentalMiddleware (req, res, next) {
